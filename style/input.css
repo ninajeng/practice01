@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  /* .container {
+    @apply mx-auto px-4 sm:px-0
+  } */
+  .stretched-link::after {
+    @apply absolute top-0 right-0 bottom-0 left-0 z-0;
+    content: "";
+  }
+  .text-muted{
+    color: #919191
+  }
+}
